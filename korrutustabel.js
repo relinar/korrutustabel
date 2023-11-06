@@ -17,15 +17,11 @@ for(let i = 1; i <= 10; i++) {
 TERVE KORRUTUSTABEL KUNI 10NI
 
 
-a=1
+
 for (let i = 1; i <= 10; i++) {
-    console.log(a)
-    
-        for(let i = 0; i <= 10; i++ ) {
-            b=a * 1
-    
-    
-    console.log(a+ "x" +i +"="+b)
-        }
-        a++
+
+    for (let a = 1; a <= 10; a++) {
+        console.log(a + "x" + i + "=" + a * i)
     }
+
+}
